@@ -1,0 +1,164 @@
+!# Clearlooks-Evolving
+!# Clearlooks as it evolves in gnome-git...
+!# Last updated 09/03/10
+
+# Fonts
+# these are really halos, but who cares?
+
+*.font: shadow=n
+window.active.label.text.font:shadow=y:shadowtint=30:shadowoffset=1
+window.inactive.label.text.font:shadow=y:shadowtint=00:shadowoffset=0
+menu.items.font:shadow=y:shadowtint=0:shadowoffset=1
+
+!# general stuff
+
+border.width: 1
+padding.width: 3
+padding.height: 2
+window.handle.width: 1
+window.client.padding.width: 0
+menu.overlap: 2
+*.justify: center
+
+!# lets set our damn shadows here, eh?
+
+*.bg.highlight: 50
+*.bg.shadow:    05
+
+window.active.title.bg.highlight: 35
+window.active.title.bg.shadow:    05
+
+window.inactive.title.bg.highlight: 30
+window.inactive.title.bg.shadow:    05
+
+window.*.grip.bg.highlight: 50
+window.*.grip.bg.shadow:    30
+
+window.*.handle.bg.highlight: 50
+window.*.handle.bg.shadow:    30
+
+!# Menu settings
+
+menu.border.color: #aaaaaa
+menu.border.width: 1
+
+menu.title.bg: solid flat
+menu.title.bg.color: #c6bcb5
+menu.title.text.color: #202020
+
+menu.items.bg: Flat Solid
+menu.items.bg.color: #e6ddd5
+menu.items.text.color: #202020
+menu.items.disabled.text.color: #aaaaaa
+
+menu.items.active.bg: Flat Gradient splitvertical border
+
+menu.items.active.bg.color: #968d85
+menu.items.active.bg.color.splitTo: #766d65
+
+menu.items.active.bg.colorTo: #766d65
+menu.items.active.bg.colorTo.splitTo: #968d85
+menu.items.active.bg.border.color: #998888
+menu.items.active.text.color: #ffffff
+
+menu.separator.width: 1
+menu.separator.padding.width: 0
+menu.separator.padding.height: 3
+menu.separator.color: #aaaaaa
+
+!# set handles here and only the once?
+
+window.*.handle.bg: Raised solid
+window.*.handle.bg.color: #e6ddd5
+
+window.*.grip.bg: Raised solid
+window.*.grip.bg.color: #e6ddd5
+
+!# Active
+
+window.*.border.color: #463d35
+
+window.active.title.separator.color: #e6ddd5
+
+*.title.bg: Raised Gradient splitvertical
+*.title.bg.color: #665d55
+*.title.bg.color.splitTo: #564d45
+*.title.bg.colorTo: #665d55
+*.title.bg.colorTo.splitTo: #564d45
+
+window.active.label.bg: Parentrelative
+window.active.label.text.color: #ffffff
+
+window.active.button.*.bg: Flat Gradient splitvertical Border
+
+window.active.button.*.bg.color: #665d55
+window.active.button.*.bg.color.splitTo: #564d45
+window.active.button.*.bg.colorTo: #665d55
+window.active.button.*.bg.colorTo.splitTo: #564d45
+
+window.active.button.*.bg.border.color: #766d65
+window.active.button.*.image.color: #F4F5F6
+
+window.active.button.hover.bg.color: #b5d3ef
+window.active.button.hover.bg.color.splitTo: #b5d3ef
+window.active.button.hover.bg.colorTo: #9cbae7
+window.active.button.hover.bg.colorTo.splitTo: #8caede
+window.active.button.hover.bg.border.color: #4A658C
+window.active.button.hover.image.color: #ffffff
+
+window.active.button.pressed.bg: Flat solid Border
+window.active.button.pressed.bg.color: #7aa1d2
+
+window.active.button.hover.bg.border.color: #4A658C
+
+!# inactive
+
+!#window.inactive.border.color: #e6ddd5
+window.inactive.title.separator.color: #e6ddd5
+
+window.inactive.title.bg: Raised Gradient splitvertical
+window.inactive.title.bg.color: #E6ddd5
+window.inactive.title.bg.color.splitTo: #c6bdb5
+window.inactive.title.bg.colorTo: #E6ddd5
+window.inactive.title.bg.colorTo.splitTo: #E6ddd5
+
+window.inactive.label.bg: Parentrelative
+window.inactive.label.text.color: #70747d
+
+window.inactive.button.*.bg: Flat Gradient splitVertical Border
+window.inactive.button.*.bg.color: #E6ddd5
+window.inactive.button.*.bg.color.splitto: #E6ddd5
+window.inactive.button.*.bg.colorTo: #E6ddd5
+window.inactive.button.*.bg.colorTo.splitto: #E6ddd5
+window.inactive.button.*.bg.border.color: #E6ddd5
+window.inactive.button.*.image.color: #6D6C6C
+
+
+!# osd (pop ups and what not, dock?)
+
+osd.border.width: 1
+osd.border.color:  #aaaaaa
+
+osd.bg: flat border gradient splitvertical
+osd.bg.color: #F0EFEE
+osd.bg.color.splitto: #f5f5f4
+osd.bg.colorTo: #EAEBEC
+osd.bg.colorTo.splitto: #E7E5E4
+
+osd.bg.border.color: #ffffff
+
+osd.active.label.bg: parentrelative
+osd.active.label.bg.color: #efefef
+osd.active.label.bg.border.color: #9c9e9c
+osd.active.label.text.color: #444
+
+osd.inactive.label.bg: parentrelative
+osd.inactive.label.text.color: #70747d
+
+!# yeah whatever, this is fine anyhoo?
+osd.hilight.bg: flat vertical gradient 
+osd.hilight.bg.color: #9ebde5
+osd.hilight.bg.colorTo: #749dcf
+osd.unhilight.bg: flat vertical gradient
+osd.unhilight.bg.color: #BABDB6
+osd.unhilight.bg.colorTo: #efefef
