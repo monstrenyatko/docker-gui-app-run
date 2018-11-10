@@ -105,12 +105,12 @@ docker run --rm --name eclipse --net=host                                      \
   ```sh
     xhost + $ip
   ```
-* Use default GTK theme
+* Use default GTK2 theme
 
   - Add to the `Docker` command before `Eclipse` binary invocation:
 
-  ``` sh
-        && unset GTK_THEME                                                     \
+  ```sh
+        && unset GTK2_RC_FILES                                                     \
   ```
 
 ## Tested On

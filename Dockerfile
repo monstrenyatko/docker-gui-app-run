@@ -51,7 +51,6 @@ ENV MOZILLA_FIVE_HOME /usr/lib/mozilla
 
 COPY themes /usr/share/themes
 RUN chmod -R +r /usr/share/themes && chmod -R +X /usr/share/themes
-ENV GTK_THEME "Human Quarny"
 ENV GTK2_RC_FILES "/usr/share/themes/Human Quarny/gtk-2.0/gtkrc"
 
 COPY entrypoint.sh /usr/local/bin/entrypoint.sh
